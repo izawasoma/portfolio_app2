@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369.33" height="323" viewBox="0 0 369.33 323">
+  <defs>
+    <filter id="長方形_6" x="170.666" y="86.211" width="198.664" height="198.664" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="多角形_1" x="0" y="139.22" width="200.748" height="183.78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_3" x="28.666" y="0" width="174" height="165" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="アクセント図形" transform="translate(-2.835 -79)">
+    <g transform="matrix(1, 0, 0, 1, 2.83, 79)" filter="url(#長方形_6)">
+      <rect id="長方形_6-2" data-name="長方形 6" width="155.952" height="155.952" rx="13" transform="matrix(0.98, 0.17, -0.17, 0.98, 206.75, 92.21)" fill="#f9da4f"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2.83, 79)" filter="url(#多角形_1)">
+      <path id="多角形_1-2" data-name="多角形 1" d="M74.374,10.56a7,7,0,0,1,12.138,0l68.347,118.921a7,7,0,0,1-6.069,10.488H12.1a7,7,0,0,1-6.069-10.488Z" transform="matrix(0.98, -0.17, 0.17, 0.98, 9, 173.16)" fill="#ed712e"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2.83, 79)" filter="url(#楕円形_3)">
+      <ellipse id="楕円形_3-2" data-name="楕円形 3" cx="78" cy="73.5" rx="78" ry="73.5" transform="translate(37.67 6)" fill="#527ed9"/>
+    </g>
+  </g>
+</svg>

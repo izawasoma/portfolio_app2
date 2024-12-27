@@ -1,0 +1,24 @@
+.profileBoxListS{
+    display: grid;
+    grid-template-columns: 3rem 1fr 2fr;
+    margin-top: 1rem;
+    & > img{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    & > dt{
+        margin-left: 0.6rem;
+        margin-bottom: 0.3rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    & > dd{
+        display: flex;
+        align-items: center;  
+        margin-bottom: 0.3rem;
+        font-size: 1.8rem;
+        font-weight: 300;  
+    }
+}
