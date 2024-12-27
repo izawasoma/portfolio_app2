@@ -1,0 +1,24 @@
+.profileBoxImageWrapper {
+  width: 100%;
+  position: relative;
+}
+.profileBoxImageWrapper .profileBoxImage {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 960px) {
+  .profileBoxImage {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.hand {
+  display: block;
+  width: 12%;
+  height: 16%;
+  position: absolute;
+  top: 40%;
+  left: 19%;
+}/*# sourceMappingURL=profileBoxImage.css.map */
