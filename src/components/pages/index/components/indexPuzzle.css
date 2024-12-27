@@ -1,0 +1,112 @@
+.indexPuzzle {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px 0px #e0e0e0;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1.6rem;
+  margin: 2rem 0;
+}
+.indexPuzzle > .imgWrap {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indexPuzzle > .imgWrap > img {
+  width: 90%;
+}
+.indexPuzzle > .hintBox {
+  text-align: justify;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.indexPuzzle > .formWrap {
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.indexPuzzle > .formWrap > input {
+  width: 67%;
+  height: 100%;
+  border: 1px solid #D9D9D9;
+  border-radius: 0.7rem;
+  padding: 0 1rem;
+}
+.indexPuzzle > .formWrap > button {
+  width: 30%;
+  height: 100%;
+  background-color: #527ED9;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 700;
+}
+.indexPuzzle .inCorrect {
+  background-color: rgb(255, 214, 214);
+  animation-name: inCorrect;
+  animation-duration: 0.1s;
+  animation-iteration-count: 2;
+}
+.indexPuzzle .boing {
+  animation: 0.8s boing-anim linear;
+  animation-iteration-count: 1;
+}
+
+@media screen and (min-width: 960px) {
+  .indexPuzzle > .imgWrap {
+    height: 30rem;
+  }
+  .indexPuzzle > .imgWrap > img {
+    width: auto;
+    height: 100%;
+  }
+}
+@keyframes inCorrect {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(2px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(-2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes boing-anim {
+  10% {
+    transform: scale(1.1, 0.9);
+  }
+  40% {
+    transform: scale(1.2, 0.8);
+  }
+  50% {
+    transform: scale(0.85, 1.15);
+  }
+  60% {
+    transform: scale(1.1, 0.9);
+  }
+  70% {
+    transform: scale(0.95, 1.08);
+  }
+  90% {
+    transform: scale(0.98, 1.02);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}/*# sourceMappingURL=indexPuzzle.css.map */
