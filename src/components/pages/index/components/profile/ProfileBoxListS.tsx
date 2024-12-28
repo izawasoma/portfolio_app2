@@ -1,5 +1,5 @@
 import "./profileBoxListS.css";
-import profileIcon from "@/assets/pages/index/profileIcon.svg"
+import pointIcon from "@/assets/svg/point-icon.svg"
 
 export const ProfileBoxListS = ({
   _title = "",
@@ -10,7 +10,7 @@ export const ProfileBoxListS = ({
 }) => {
   return (
     <div className="profileBoxListS">
-      <img src={profileIcon} alt="プロフィール欄アイコン" />
+      <img src={pointIcon} alt="プロフィール欄アイコン" />
       <dt>{ _title }</dt>
       <dd>{ _discription }</dd>
     </div>
