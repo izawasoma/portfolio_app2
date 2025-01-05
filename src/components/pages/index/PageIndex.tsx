@@ -195,19 +195,23 @@ export const PageIndex = () => {
       <section className="sectionMySkill">
         <h2>Skills</h2>
         <SkillsBox>
-          <SkillsCard _skillName="MySQL" _skillLevel={5} />
           <SkillsCard _skillName="PHP" _skillLevel={5} />
-          <SkillsCard _skillName="Laravel" _skillLevel={4} />
-          <SkillsCard _skillName="HTML,CSS" _skillLevel={5} />
-          <SkillsCard _skillName="Git,Github" _skillLevel={4} />
-          <SkillsCard _skillName="PhotoShop" _skillLevel={5} />
-          <SkillsCard _skillName="Illustrator" _skillLevel={4} />
+          <SkillsCard _skillName="Laravel" _skillLevel={5} />
+          <SkillsCard _skillName="Go" _skillLevel={4} />
           <SkillsCard _skillName="Node.js" _skillLevel={3} />
-          <SkillsCard _skillName="PostgreSQL" _skillLevel={4} />
-          <SkillsCard _skillName="Heroku" _skillLevel={3} />
-          <SkillsCard _skillName="React" _skillLevel={3} />
-          <SkillsCard _skillName="Angular" _skillLevel={3} />
+          <SkillsCard _skillName="C#" _skillLevel={3} />
           <SkillsCard _skillName="Java" _skillLevel={2} />
+          <SkillsCard _skillName="HTML,CSS" _skillLevel={5} />
+          <SkillsCard _skillName="React" _skillLevel={3} />
+          <SkillsCard _skillName="Angular" _skillLevel={2} />
+          <SkillsCard _skillName="Git,Github" _skillLevel={5} />
+          <SkillsCard _skillName="Linux" _skillLevel={3} />
+          <SkillsCard _skillName="Docker" _skillLevel={3} />
+          <SkillsCard _skillName="Heroku" _skillLevel={3} />
+          <SkillsCard _skillName="MySQL" _skillLevel={5} />
+          <SkillsCard _skillName="PostgreSQL" _skillLevel={3} />
+          <SkillsCard _skillName="PhotoShop" _skillLevel={3} />
+          <SkillsCard _skillName="Illustrator" _skillLevel={3} />
           <SkillsCard _skillName="Swift" _skillLevel={1} />
         </SkillsBox>
       </section>

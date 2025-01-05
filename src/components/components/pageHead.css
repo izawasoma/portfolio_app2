@@ -1,5 +1,5 @@
 .sectionPageHead {
-  height: 90vh;
+  height: 60vh;
   padding: 2rem 7% 4rem 7%;
   position: relative;
   background-color: white;
@@ -8,12 +8,11 @@
 .sectionPageHead > .topSharpWrapper {
   position: absolute;
   z-index: 1;
-  right: -4rem;
-  width: 80%;
+  right: 1rem;
   margin-top: 3rem;
 }
 .sectionPageHead > .topSharpWrapper > img {
-  width: 80%;
+  width: 80vw;
 }
 .sectionPageHead > div:nth-of-type(2) {
   position: relative;
@@ -35,6 +34,7 @@
 
 @media screen and (min-width: 960px) {
   .sectionPageHead {
+    height: 90vh;
     padding: 2rem 12%;
   }
   .sectionPageHead > .topSharpWrapper {

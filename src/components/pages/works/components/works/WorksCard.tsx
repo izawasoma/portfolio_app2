@@ -7,17 +7,23 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 /* コンテンツ */
 import pointIcon from "@/assets/svg/point-icon.svg";
+import { ContentsType, Work } from '../../types';
 
 export const WorksCard = ({
-  _title = "title",
+  _work = {
+    title: "",
+    tags: [],
+    description: "",
+    contents: [],
+  }
 }:{
-  _title: string,
+  _work: Work,
 }) => {
   return (
     <article className="worksCard">
       <div className="title">
         <img src={pointIcon} alt="プロフィール欄アイコン" />
-        <h3>{ _title }</h3>
+        <h3>{ _work.title }</h3>
       </div>
       <div className='display'>
         <Swiper
@@ -26,16 +32,36 @@ export const WorksCard = ({
           modules={[Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <img src="img/musicwolf1.jpg" alt="musicwolf1" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <video src='video/musicwolf.mp4' controls />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="img/musicwolf2.jpg" alt="musicwolf2" />
-          </SwiperSlide>
+          { _work.contents.map(item => {
+            switch (item.contentsType){
+              case ContentsType.Image:
+                return (
+                  <SwiperSlide key={item.url}>
+                    <img src={item.url} alt="musicwolf1" />
+                  </SwiperSlide>
+                );
+              case ContentsType.Video:
+                return (
+                  <SwiperSlide key={item.url}>
+                    <video src={item.url} controls />
+                  </SwiperSlide>
+                );
+              default:
+                return null
+            }  
+          }) }
         </Swiper>
+      </div>
+      <div className='tags'>
+        { _work.tags.map(tag => (
+          <div className='tag' key={tag}>
+            <div className='tag-icon'></div>
+            <div className='tag-main'>{ tag }</div>
+          </div>
+        )) }
+      </div>
+      <div className='description'>
+        { _work.description }
       </div>
     </article>
   );

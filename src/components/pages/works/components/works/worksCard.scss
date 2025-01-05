@@ -3,6 +3,8 @@
   background-color: white;
   width: 100%;
   box-sizing: border-box;
+  box-shadow: 0px 4px 10px 0px #e0e0e0;
+  border-radius: 0.6rem;
   & > .title {
     display: flex;
     align-items: center;
@@ -16,7 +18,7 @@
       margin-bottom: 0.3rem;
       display: flex;
       align-items: center;
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 500;
     }
   }
@@ -28,23 +30,54 @@
       & > .swiper-wrapper {
         margin: 0;
         width: 100%;
-          & > .swiper-slide {
-            width: 100% !important;
-            text-align: center;
-            font-size: 18px;
-            background: #424242;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            & > img {
-                max-width: 100%;
-                height: 100%;
-            }
-            & > video {
-                max-width: 100%;
-                height: 100%;
-            }
+        & > .swiper-slide {
+          width: 100% !important;
+          text-align: center;
+          font-size: 18px;
+          background: #424242;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          & > img {
+            max-width: 100%;
+            max-height: 100%;
           }
+          & > video {
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+    }
+  }
+  & > .description {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  & > .tags {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    & > .tag {
+      background-color: #303560;
+      width: fit-content;
+      padding: 0.3rem 1rem;
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+      & > .tag-icon {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 1rem;
+        background-color: #ffffff;
+        margin-right: 0.5rem;
+      }
+      & > .tag-main {
+        font-size: 1.4rem;
+        color: #ffffff;
+        font-weight: 700;
       }
     }
   }
@@ -53,5 +86,21 @@
 @media screen and (min-width: 960px) {
   .worksCard {
     padding: 4rem 6rem;
+    & > .display {
+      & > .swiper {
+        & > .swiper-wrapper {
+          & > .swiper-slide {
+            & > img {
+              max-width: 100%;
+              max-height: 100%;
+            }
+            & > video {
+              max-width: 100%;
+              max-height: 100%;
+            }
+          }
+        }
+      }
+    }
   }
 }
