@@ -1,5 +1,3 @@
-/* ライブラリ */
-import React from "react";
 /* CSS */
 import "./Destyle.css"
 import "./Layout.css";

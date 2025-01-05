@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, ReactNode } from "react";
+import { useState, useContext, useEffect, ReactNode } from "react";
 import "./hamburgerMenu.css";
 import { RootContext } from "../../providers/RootProviders";
 
