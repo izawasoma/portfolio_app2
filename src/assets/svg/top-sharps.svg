@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262.922" height="265.836" viewBox="0 0 262.922 265.836">
+  <defs>
+    <filter id="長方形_6" x="90.247" y="24.322" width="95.561" height="95.561" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_3" x="70.666" y="124.077" width="76.362" height="73.119" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="多角形_1" x="156.673" y="63.103" width="106.25" height="97.77" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_15" x="192.151" y="0" width="66.644" height="66.644" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_16" x="78.729" y="205.601" width="60.236" height="60.236" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="多角形_7" x="144.071" y="187.402" width="77.737" height="74.171" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="多角形_8" x="0" y="160.668" width="76.031" height="71.467" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_8" x="209.444" y="173.252" width="49.35" height="47.609" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_51" data-name="グループ 51" transform="translate(-90.251 -71.427)">
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#長方形_6)">
+      <rect id="長方形_6-2" data-name="長方形 6" width="66.952" height="66.952" rx="13" transform="matrix(0.98, 0.17, -0.17, 0.98, 110.87, 30.32)" fill="#f9da4f"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#楕円形_3)">
+      <ellipse id="楕円形_3-2" data-name="楕円形 3" cx="29.181" cy="27.56" rx="29.181" ry="27.56" transform="translate(79.67 130.08)" fill="#527ed9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#多角形_1)">
+      <path id="多角形_1-2" data-name="多角形 1" d="M32.812,10.493a7,7,0,0,1,12.123,0l26.745,46.3a7,7,0,0,1-6.061,10.5H12.128a7,7,0,0,1-6.061-10.5Z" transform="matrix(0.98, -0.17, 0.17, 0.98, 165.67, 82.6)" fill="#ed712e"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#長方形_15)">
+      <rect id="長方形_15-2" data-name="長方形 15" width="37.952" height="37.952" rx="13" transform="translate(201.15 18.98) rotate(-20)" fill="#5c7dd3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#長方形_16)">
+      <rect id="長方形_16-2" data-name="長方形 16" width="32.952" height="32.952" rx="13" transform="translate(87.73 222.87) rotate(-20)" fill="#dd7840"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#多角形_7)">
+      <path id="多角形_7-2" data-name="多角形 7" d="M17.813,10.482a7,7,0,0,1,12.12,0l11.74,20.306a7,7,0,0,1-6.06,10.5H12.133a7,7,0,0,1-6.06-10.5Z" transform="translate(168.54 193.4) rotate(22)" fill="#f4db68"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#多角形_8)">
+      <path id="多角形_8-2" data-name="多角形 8" d="M18.308,10.524a7,7,0,0,1,12.13,0L42.7,31.8a7,7,0,0,1-6.065,10.5H12.113A7,7,0,0,1,6.048,31.8Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 19.95, 166.67)" fill="#5c7dd3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 90.25, 71.43)" filter="url(#楕円形_8)">
+      <ellipse id="楕円形_8-2" data-name="楕円形 8" cx="15.675" cy="14.804" rx="15.675" ry="14.804" transform="translate(218.44 179.25)" fill="#f4db68"/>
+    </g>
+  </g>
+</svg>

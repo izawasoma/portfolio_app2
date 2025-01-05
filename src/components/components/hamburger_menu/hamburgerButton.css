@@ -1,0 +1,65 @@
+.hamburgerButtonWrap {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 7%;
+  z-index: 101;
+  cursor: pointer;
+}
+
+.hamburgerButton {
+  height: 3.2rem;
+  width: 3.7rem;
+  position: relative;
+}
+.hamburgerButton > span {
+  display: block;
+  width: 100%;
+  height: 0.6rem;
+  background-color: black;
+  border-radius: 0.3rem;
+  transition-duration: 0.4s;
+  transition-property: transform, opacity, background-color;
+}
+.hamburgerButton > span:nth-last-child(1) {
+  position: absolute;
+  transform-origin: 0 50% 0;
+  left: 0;
+  top: 0;
+}
+.hamburgerButton > span:nth-last-child(2) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hamburgerButton > span:nth-last-child(3) {
+  position: absolute;
+  transform-origin: 0 50% 0;
+  left: 0;
+  bottom: 0;
+}
+
+.hamburgerButton.open > span {
+  background-color: white;
+}
+.hamburgerButton.open > span:nth-last-child(1) {
+  transform: rotate(45deg);
+}
+.hamburgerButton.open > span:nth-last-child(2) {
+  opacity: 0;
+}
+.hamburgerButton.open > span:nth-last-child(3) {
+  transform: rotate(-45deg);
+}
+
+.hamburgerButton.close > span:nth-last-child(1) {
+  transform: rotate(0deg);
+}
+.hamburgerButton.close > span:nth-last-child(2) {
+  opacity: 1;
+}
+.hamburgerButton.close > span:nth-last-child(3) {
+  transform: rotate(0deg);
+}/*# sourceMappingURL=hamburgerButton.css.map */
